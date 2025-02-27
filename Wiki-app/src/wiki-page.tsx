@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { marked } from 'marked'
-import { Card, CardContent, CardHeader, CardTitle } from "Wiki-app\src\components\ui\card.tsx"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 
 interface WikiPageProps {
   content: string
